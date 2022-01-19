@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <!--Import icon for top tab-->
+    <link rel="shortcut icon" href="~/img/favicon.ico" type="image/x-icon" />
+    <!--Connect bootstrap-->
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Import the google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!--Link to css stylesheet-->
+    <link href="~/css/mystyles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div style="background-color: rgb(27,54,80);">
+        <nav>
+            <a asp-controller="Mains" asp-action="Index" style="color: white; font-family: 'Abril Fatface', cursive; ">Home</a>
+            <a asp-controller="Mains" asp-action="Calc" style="color: white; font-family: 'Abril Fatface', cursive; ">Calculator</a>
+        </nav>
+    </div>
+    <br /><br />
+    <div>
+        @RenderBody()
+    </div>
+    <!--Connect jquery files, bootstrap, and the calc.js file inorder to use the grade calculator-->
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+
+    <script src="~/js/calc.js"></script>
+</body>
+
+</html>

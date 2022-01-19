@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{3E79DF24-FA73-4DD5-AFE7-9593E0A26412}|Default">
+  <MonoDevelop.Ide.ItemProperties.AboutMe PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AboutMe/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="AboutMe/Views/Mains/Index.cshtml" Line="14" Column="15" />
+      <File FileName="AboutMe/Views/Shared/_Layout.cshtml" Line="30" Column="11" />
+      <File FileName="AboutMe/Views/Mains/Calc.cshtml" Line="16" Column="28" />
+      <File FileName="AboutMe/Controllers/MainsController.cs" Line="20" Column="18" />
+      <File FileName="AboutMe/wwwroot/js/calc.js" Line="8" Column="23" />
+      <File FileName="AboutMe/Models/CalcModel.cs" Line="13" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AboutMe" expanded="True">
+            <Node name="AboutMe" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
