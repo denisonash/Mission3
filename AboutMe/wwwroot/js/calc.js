@@ -1,7 +1,7 @@
-﻿$("#calculate").click(function () {
+﻿$("form").submit(function () {
     // Declare/set total percentage variable
     total = 0
-    // Multiple the inputs by their weights and add them all together
+    // Multiple the inputs by their weights and add them all together 
     total = (parseFloat($("#assignments").val())/100)*55 + (parseFloat($("#gp").val())/100)*5 + (parseFloat($("#quizzes").val())/100)*10 + (parseFloat($("#exams").val())/100)*20 + (parseFloat($("#intex").val())/100)*10;
     // Find the correct corresponding letter grade
     lettergrade = "";
